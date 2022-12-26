@@ -1,100 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Italian Pizza</title>
-  <meta charset="utf-8">
-</head>
+  <head>
+    <title>Italian Pizza</title>
+    <link rel="stylesheet" href="CSS/italian.css">
+    <meta charset="utf-8">
+  </head>
 <body>
-  <!--Nav-->
+
+    <!--Nav-->
   <nav>
-    <div>
-      <div>
-        <ul>
-          <a href="#home" id="link"></a>
-          <li>HOME</li><a href="#menu"></a>
-          <li>MENU</li><a href="#contact"></a>
-          <li>ORDER NOW</li>
+    <div class="wrap">
+      <div class="menu-container">
+        <ul class="menu">
+          <a href="#home"><li>HOME</li> </a>
+          <a href="#menu"><li>Menu</li> </a>
+          <a href="#reservations"><li>Contact</li> </a>
         </ul>
       </div>
     </div>
   </nav><!--End Nav-->
+  
   <!--Home-->
   <div id="home">
     <div>
       <div>
-        <h1><span>Italian Pizza</span></h1><iframe width="560" height="315" src="https://www.youtube.com/embed/_jOMIdietUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1><span>Italian Pizza</span></h1>
       </div>
     </div>
   </div><!--End Home-->
-  <!--Services-->
-  <section>
-    <div id="menu">
-      <h1>MENU</h1>
-      <div>
-        <!--Photo Container 1-->
-        <div>
-          <div>
-            <h3>Pizza Fritta</h3><img src="./Images/Thumb/thumbnail_1.png" alt="thumbnail_1">
-            <div>
-              <p>A classic Neapolitan street food, pizza fritta is fried pizza dough. It comes in many different shapes and forms. For example, montanara is round while calzone is shaped like a half moon. Like many other great things in life, pizza fritta was born out of a crisis. After World War II, the price of mozzarella and wood for the ovens increased dramatically. In order to continue to serve their staple dish, cooks in Napoli decided to fry the dough instead of baking it, filling it with ingredients they had on hand instead.</p>
-            </div>
-          </div>
-        </div><!--End Photo Container 1-->
-        <!--Photo Container 1-->
-        <div>
-          <div>
-            <h3>Pizza alla Pala</h3><img src="./images/thumb/thumbnail_2.png" alt="thumbnail_2">
-            <div>
-              <p>Meaning "paddle pizza" in Italian, pizza alla pala originated in Roman bakeries as a way to use up leftover bread dough. Bakers would stretch the dough lengthwise, top it with fresh ingredients, and serve it by the slice on a wooden paddle. Unlike pizza Napoletana, this style has a highly-hydrated dough (about 80% water) and is cooked in an electric oven around 580°F. The dough is denser and rises for a long time, giving each slice a soft, fluffy interior and a crispy exterior. Get a slice at your local Eataly and try our recipe!</p>
-            </div>
-          </div>
-        </div><!--End Photo Container 1-->
-        <!--Photo Container 1-->
-        <div>
-          <div>
-            <h3>Pizza Napoletana</h3><img src="./images/thumb/thumbnail_3.png" alt="thumbnail_3">
-            <div>
-              <p>Born in Napoli, la pizza Napoletana is one of the most famous types of Italian pizza. Protected by a Traditional Specialty Guaranteed (TSG) certification, this style must be made in a very particular way. The dough is comprised of wheat flour, yeast, salt, and water and is left to rise for up to 24 hours. It's shaped by hand into a flat, round disk, about 3 millimeters thick. After that, it's topped with ingredients and baked for 90 seconds in a blisteringly hot (around 900°F) wood-burning oven. The result is a soft, elastic heart with a tall, fluffy crust called the cornicione in Italian. You can find this variety at your local Eataly's La Pizza & La Pasta restaurant.</p>
-            </div>
-          </div>
-        </div><!--End Photo Container 1-->
-        <!--Photo Container 1-->
-        <div>
-          <div>
-            <h3>Pizza Tonda Romana</h3><img src="./images/thumb/thumbnail_4.png" alt="thumbnail_4">
-            <div>
-              <p>Pizza alla pala isn't the only variety of pizza from Italy's capital city. In Roman pizzerie, you'll find another type: la pizza tonda Romana. This kind is flat and round and it has a very thin crust. Unlike pizza Napoletana, this style is crispy and has an almost cracker-like crust!</p>
-            </div>
-          </div>
-        </div><!--End Photo Container 1-->
-      </div>
+
+<!-- Menu Grid -->
+<div id="menu">
+  <h1>MENU</h1>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="./Images/Thumb/thumbnail_1.png" alt="Mountains" style="width:100%">
+      <h3>Pizza Fritta</h3>
+      <p>Pizza alla pala isn't the only variety of pizza from Italy's capital city. In Roman pizzerie, you'll find another type: la pizza tonda Romana. This kind is flat and round and it has a very thin crust. Unlike pizza Napoletana, this style is crispy and has an almost cracker-like crust!</p>
     </div>
-  </section><!--End Services-->
-  <!--Book-->
-  <section>
-    <div id="contact">
-      <div>
-        <h1>ORDER ONLINE</h1>
-        <div>
-          <h2><span>Start Your order.</span></h2>
-          <p>Please provide us with your basic contact information.</p>
-          <div>
-            <form action="method"></form><input class="rsvp" type="text" value="First Name"> <input class="rsvp" type="text" value="Last Name"> <input class="rsvp" type="text" value="Email Address"> <input class="rsvp" type="text" value="Phone Number">
-            <div class="form-Sailers"></div>
-            <div>
-              <input type="submit" value="submit">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!--End Book-->
-  <!--Footer-->
-  <div>
-    www.italianpizza.com &nbsp;\&nbsp; ©2022
   </div>
-  <div>
-    <div>
+  <div class="column">
+    <div class="content">
+    <img src="./Images/Thumb/thumbnail_2.png" alt="Lights" style="width:100%">
+      <h3>Pizza alla Pala</h3>
+      <p>Pizza alla pala isn't the only variety of pizza from Italy's capital city. In Roman pizzerie, you'll find another type: la pizza tonda Romana. This kind is flat and round and it has a very thin crust. Unlike pizza Napoletana, this style is crispy and has an almost cracker-like crust!</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="./Images/Thumb/thumbnail_3.png" alt="Nature" style="width:100%">
+      <h3>Pizza Napoletana</h3>
+      <p>Pizza alla pala isn't the only variety of pizza from Italy's capital city. In Roman pizzerie, you'll find another type: la pizza tonda Romana. This kind is flat and round and it has a very thin crust. Unlike pizza Napoletana, this style is crispy and has an almost cracker-like crust!</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="./Images/Thumb/thumbnail_4.png" alt="Mountains" style="width:100%">
+      <h3>Pizza Tonda Romana</h3>
+      <p>Pizza alla pala isn't the only variety of pizza from Italy's capital city. In Roman pizzerie, you'll find another type: la pizza tonda Romana. This kind is flat and round and it has a very thin crust. Unlike pizza Napoletana, this style is crispy and has an almost cracker-like crust!</p>
+    </div>
+  </div>
+<!-- END MENU GRID -->
+
+<section class="video">
+  <div style="text-align:center">
+    <h1>How to cook Pizza</h1>
+   <div> <iframe width="515" height="315" class="video"src="https://www.youtube.com/embed/_jOMIdietUQ"></iframe> 
+  </div>
+</section>
+
+<!-- END MAIN -->
+
+ <!--RSVP-->
+  <section id="reservations">
+    <div class="form-style-10">
+      <h1>Reservations!<span>Reserve Now!!.</span></h1>
+      <p class="rsvp-text">Provide us with your basic contact information.</p>
+      <form>
+        <div class="section">
+          <span>1</span>First Name & Email
+        </div>
+        <div class="inner-wrap">
+          <label>Your Full Name <input type="text" name="field1"></label> <label>Email Address <input type="email" name="field2"></label>
+        </div>
+        <div class="section">
+          <span>2</span>Phone & Date
+        </div>
+        <div class="inner-wrap">
+          <label>Phone Number<input type="text" name="field3"></label> <label>Date <input type="text" name="field4"></label>
+        </div>
+        <div class="button-section">
+          <input type="submit" name="Sign Up"> <span class="privacy-policy"><input type="checkbox" name="field7">You agree to our Terms and Policy.</span>
+        </div>
+      </form>
+    </div>
+  </section>
+    <!--END RSVP-->
+  <!--END RSVP-->
+  <!--Footer-->
+  <div id="footer">
+    www.italianpizza.com &nbsp;\&nbsp; ©2022
+  </div><!--End Footer-->
+</body>
+</html>
       <!--End Footer-->
     </div>
   </div>
